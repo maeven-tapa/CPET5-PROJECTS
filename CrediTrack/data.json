@@ -1,0 +1,269 @@
+{
+    "debtors": [
+        {
+            "name": "John Doe",
+            "total_debt": 1000,
+            "overdue_payments": 200,
+            "payment_history": [
+                {
+                    "date_paid": "2024-01-01",
+                    "amount_paid": 300,
+                    "payment_method": "Credit Card"
+                }
+            ],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-02-01",
+                    "total_debt": 700,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "5% on total debt",
+            "notes": "Client needs assistance"
+        },
+        {
+            "name": "Jane Smith",
+            "total_debt": 1500,
+            "overdue_payments": 500,
+            "payment_history": [
+                {
+                    "date_paid": "2024-02-15",
+                    "amount_paid": 400,
+                    "payment_method": "Bank Transfer"
+                }
+            ],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-03-01",
+                    "total_debt": 1100,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "6% on total debt",
+            "notes": "Payment plan established"
+        },
+        {
+            "name": "Alice Johnson",
+            "total_debt": 800,
+            "overdue_payments": 100,
+            "payment_history": [
+                {
+                    "date_paid": "2024-03-01",
+                    "amount_paid": 200,
+                    "payment_method": "Cash"
+                }
+            ],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-04-01",
+                    "total_debt": 600,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "4% on total debt",
+            "notes": "Follow up next month"
+        },
+        {
+            "name": "Bob Brown",
+            "total_debt": 2200,
+            "overdue_payments": 300,
+            "payment_history": [
+                {
+                    "date_paid": "2024-01-10",
+                    "amount_paid": 500,
+                    "payment_method": "Debit Card"
+                }
+            ],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-05-01",
+                    "total_debt": 1700,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "7% on total debt",
+            "notes": "High priority account"
+        },
+        {
+            "name": "Chris Green",
+            "total_debt": 3000,
+            "overdue_payments": 400,
+            "payment_history": [],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-06-01",
+                    "total_debt": 3000,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "8% on total debt",
+            "notes": "No payments received yet"
+        },
+        {
+            "name": "David Wilson",
+            "total_debt": 1200,
+            "overdue_payments": 200,
+            "payment_history": [
+                {
+                    "date_paid": "2024-02-20",
+                    "amount_paid": 300,
+                    "payment_method": "Bank Transfer"
+                }
+            ],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-03-20",
+                    "total_debt": 900,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "5% on total debt",
+            "notes": "Client is responding well"
+        },
+        {
+            "name": "Eva Adams",
+            "total_debt": 950,
+            "overdue_payments": 150,
+            "payment_history": [
+                {
+                    "date_paid": "2024-03-05",
+                    "amount_paid": 200,
+                    "payment_method": "Cash"
+                }
+            ],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-04-05",
+                    "total_debt": 750,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "3% on total debt",
+            "notes": "Needs a reminder call"
+        },
+        {
+            "name": "Frank Miller",
+            "total_debt": 1700,
+            "overdue_payments": 500,
+            "payment_history": [
+                {
+                    "date_paid": "2024-01-15",
+                    "amount_paid": 400,
+                    "payment_method": "Credit Card"
+                }
+            ],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-03-15",
+                    "total_debt": 1300,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "6% on total debt",
+            "notes": "Client is inquiring about options"
+        },
+        {
+            "name": "Grace Lee",
+            "total_debt": 450,
+            "overdue_payments": 50,
+            "payment_history": [
+                {
+                    "date_paid": "2024-03-10",
+                    "amount_paid": 100,
+                    "payment_method": "Cash"
+                }
+            ],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-04-10",
+                    "total_debt": 350,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "2% on total debt",
+            "notes": "Client is making progress"
+        },
+        {
+            "name": "Henry King",
+            "total_debt": 1800,
+            "overdue_payments": 300,
+            "payment_history": [],
+            "payment_schedule": [
+                {
+                    "due_date": "2024-07-01",
+                    "total_debt": 1800,
+                    "status": "Due"
+                }
+            ],
+            "interest_calculation": "9% on total debt",
+            "notes": "Needs follow-up"
+        }
+    ],
+    "notifications": {
+        "upcoming_events": [
+            "Payment Reminder",
+            "Account Review",
+            "Client Follow-Up",
+            "Year-End Settlement",
+            "Quarterly Audit"
+        ],
+        "overdue_accounts": [
+            "John Doe",
+            "Jane Smith",
+            "Bob Brown",
+            "Chris Green",
+            "David Wilson",
+            "Eva Adams",
+            "Frank Miller",
+            "Grace Lee",
+            "Henry King"
+        ],
+        "interest_penalties": [
+            {
+                "name": "John Doe",
+                "status": "Overdue",
+                "penalties": "10% late fee"
+            },
+            {
+                "name": "Jane Smith",
+                "status": "Overdue",
+                "penalties": "15% late fee"
+            },
+            {
+                "name": "Bob Brown",
+                "status": "Overdue",
+                "penalties": "5% late fee"
+            },
+            {
+                "name": "Chris Green",
+                "status": "Overdue",
+                "penalties": "20% late fee"
+            },
+            {
+                "name": "David Wilson",
+                "status": "Overdue",
+                "penalties": "10% late fee"
+            },
+            {
+                "name": "Eva Adams",
+                "status": "Overdue",
+                "penalties": "5% late fee"
+            },
+            {
+                "name": "Frank Miller",
+                "status": "Overdue",
+                "penalties": "15% late fee"
+            },
+            {
+                "name": "Grace Lee",
+                "status": "Overdue",
+                "penalties": "5% late fee"
+            },
+            {
+                "name": "Henry King",
+                "status": "Overdue",
+                "penalties": "15% late fee"
+            }
+        ]
+    }
+}

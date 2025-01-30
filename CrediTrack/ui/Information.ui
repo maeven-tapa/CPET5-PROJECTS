@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1023</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="payment_history">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>521</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: rgb(10, 179, 179);
+    color: white; /* Text color */
+    border: 2px solid #005c5c; /* Border color */
+    font-size: 12px; /* Font size */
+}
+
+QTableWidget::item {
+    border: 1px solid #ffffff; /* Item border color */
+}
+
+QHeaderView::section {
+    background-color: rgb(20, 130, 130); /* Header background color */
+    color: white; /* Header text color */
+    padding: 5px;
+    font-size: 12px; /* Header font size */
+}
+
+QTableWidget::item:selected {
+    background-color: rgb(0, 100, 100); /* Background color for selected items */
+    color: white; /* Text color for selected items */
+}
+</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>154</number>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Data Paid</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Amount Paid</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Payment Method</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="Title_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>PAYMENT HISTORY</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Title_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>340</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>PAYMENT SCHEDULE</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="payment_schedule">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>390</y>
+     <width>521</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: rgb(10, 179, 179);
+    color: white; /* Text color */
+    border: 2px solid #005c5c; /* Border color */
+    font-size: 12px; /* Font size */
+}
+
+QTableWidget::item {
+    border: 1px solid #ffffff; /* Item border color */
+}
+
+QHeaderView::section {
+    background-color: rgb(20, 130, 130); /* Header background color */
+    color: white; /* Header text color */
+    padding: 5px;
+    font-size: 12px; /* Header font size */
+}
+
+QTableWidget::item:selected {
+    background-color: rgb(0, 100, 100); /* Background color for selected items */
+    color: white; /* Text color for selected items */
+}
+</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>160</number>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Due Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Dept</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="Title_6">
+   <property name="geometry">
+    <rect>
+     <x>612</x>
+     <y>100</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>INTEREST CALCULATIONS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Title_7">
+   <property name="geometry">
+    <rect>
+     <x>612</x>
+     <y>294</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>NOTE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Previous">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>501</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Franklin Gothic Book</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border-radius: 20px ;
+	background-color: rgb(66, 82, 91);
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover {
+	background-color: rgb(0, 255, 252);
+	color: rgb(0, 0, 0);
+}
+QPushButton:pressed {
+	background-color: rgb(0, 255, 252);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Previous ◄</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Next">
+   <property name="geometry">
+    <rect>
+     <x>811</x>
+     <y>503</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Franklin Gothic Book</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border-radius: 20px ;
+	background-color: rgb(0, 255, 252);
+	color: rgb(0, 0, 0);
+}
+QPushButton:hover {
+	background-color: rgb(66, 82, 91);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed {
+	background-color: rgb(66, 82, 91);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>► Next</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="interest_cal">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>150</y>
+     <width>361</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: rgb(10, 179, 179);
+    color: white; /* Text color */
+    border: 2px solid #005c5c; /* Border color */
+    font-size: 12px; /* Font size */
+}
+
+QTableWidget::item {
+    border: 1px solid #ffffff; /* Item border color */
+}
+
+QHeaderView::section {
+    background-color: rgb(20, 130, 130); /* Header background color */
+    color: white; /* Header text color */
+    padding: 5px;
+    font-size: 12px; /* Header font size */
+}
+
+QTableWidget::item:selected {
+    background-color: rgb(0, 100, 100); /* Background color for selected items */
+    color: white; /* Text color for selected items */
+}
+</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>174</number>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Debtor:</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Calculations:</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="note">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>341</y>
+     <width>361</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: rgb(10, 179, 179);
+    color: white; /* Text color */
+    border: 2px solid #005c5c; /* Border color */
+    font-size: 12px; /* Font size */
+}
+
+QTableWidget::item {
+    border: 1px solid #ffffff; /* Item border color */
+}
+
+QHeaderView::section {
+    background-color: rgb(20, 130, 130); /* Header background color */
+    color: white; /* Header text color */
+    padding: 5px;
+    font-size: 12px; /* Header font size */
+}
+
+QTableWidget::item:selected {
+    background-color: rgb(0, 100, 100); /* Background color for selected items */
+    color: white; /* Text color for selected items */
+}
+</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
+   </property>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Notes:</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="Title_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>CREDITRACK</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>70</y>
+     <width>901</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1031</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Resources/3.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>payment_history</zorder>
+  <zorder>Title_4</zorder>
+  <zorder>Title_5</zorder>
+  <zorder>payment_schedule</zorder>
+  <zorder>Title_6</zorder>
+  <zorder>Title_7</zorder>
+  <zorder>Previous</zorder>
+  <zorder>Next</zorder>
+  <zorder>interest_cal</zorder>
+  <zorder>note</zorder>
+  <zorder>Title_2</zorder>
+  <zorder>line</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

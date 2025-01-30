@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1292</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1291</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>8.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_btn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>690</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="general_tbl">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>150</y>
+      <width>531</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Apply this stylesheet to your QTableWidget */
+QTableWidget {
+    background-color: #ffffff;
+    alternate-background-color: #f8f8f8;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    gridline-color: #e0e0e0;
+}
+
+QTableWidget::item {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+QTableWidget::item:selected {
+    background-color: #fff3e6;
+    color: #e67300;
+}
+
+QTableWidget::item:hover {
+    background-color: #fff8f0;
+}
+
+QHeaderView::section {
+    background-color: #ffffff;
+    color: #e67300;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #e67300;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QTableWidget QHeaderView {
+    border: none;
+}
+
+QTableWidget::corner {
+    background-color: #ffffff;
+    border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background-color: #f0f0f0;
+    width: 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #e67300;
+    border-radius: 5px;
+    min-height: 30px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background-color: #f0f0f0;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #e67300;
+    border-radius: 5px;
+    min-width: 30px;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+}</string>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::AnyKeyPressed</set>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>90</number>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>40</number>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Owner:</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Pet:</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Room:</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Concerns:</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="priority_tbl">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>150</y>
+      <width>541</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Apply this stylesheet to your QTableWidget */
+QTableWidget {
+    background-color: #ffffff;
+    alternate-background-color: #f8f8f8;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    gridline-color: #e0e0e0;
+}
+
+QTableWidget::item {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+QTableWidget::item:selected {
+    background-color: #fff3e6;
+    color: #e67300;
+}
+
+QTableWidget::item:hover {
+    background-color: #fff8f0;
+}
+
+QHeaderView::section {
+    background-color: #ffffff;
+    color: #e67300;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #e67300;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QTableWidget QHeaderView {
+    border: none;
+}
+
+QTableWidget::corner {
+    background-color: #ffffff;
+    border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background-color: #f0f0f0;
+    width: 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #e67300;
+    border-radius: 5px;
+    min-height: 30px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background-color: #f0f0f0;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #e67300;
+    border-radius: 5px;
+    min-width: 30px;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+}</string>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::AnyKeyPressed</set>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>90</number>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>43</number>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Owner:</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Pet:</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Room:</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Concerns:</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
