@@ -1,0 +1,2462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>creo_mainpage</class>
+ <widget class="QMainWindow" name="creo_mainpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>798</width>
+    <height>903</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>681</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"> background-color: rgb(255, 87, 51);</string>
+  </property>
+  <widget class="QWidget" name="main_frame">
+   <layout class="QGridLayout" name="gridLayout_11">
+    <item row="0" column="0">
+     <widget class="QFrame" name="main_frame_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 87, 51);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QFrame" name="title_frame">
+         <property name="styleSheet">
+          <string notr="true"> border-radius: 10px; border: 0px solid white; 
+background-color: rgb(250, 137, 112);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>292</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="logo">
+            <property name="maximumSize">
+             <size>
+              <width>63</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"> border-radius: 10px; border: 0px solid grey;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>images/creo1.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>262</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="cart1_btn">
+            <property name="minimumSize">
+             <size>
+              <width>70</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 15px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: white; 
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Cart</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QPushButton" name="logout_btn">
+            <property name="minimumSize">
+             <size>
+              <width>31</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    background-color: white; 
+    border-radius: 15px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: white; 
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>images/out.webp</normaloff>images/out.webp</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>757</width>
+           <height>10</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="0">
+        <widget class="QFrame" name="content_frame">
+         <property name="minimumSize">
+          <size>
+           <width>741</width>
+           <height>791</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px; border-radius: 10px; background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QScrollArea" name="content_scroll_area">
+            <property name="minimumSize">
+             <size>
+              <width>721</width>
+              <height>771</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QScrollArea {
+    border: 0px; 
+}
+
+QScrollBar:vertical {
+    background: #f0f0f0;  
+    width: 12px;         
+    margin: 0px 0px 0px 0px;
+    border-radius: 6px;    
+}
+
+QScrollBar::handle:vertical {
+    background: #555555;   
+    min-height: 20px;   
+    border-radius: 6px;  
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #777777; 
+}
+
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical {
+    height: 0px;  
+}</string>
+            </property>
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="content_scrol_content">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>737</width>
+               <height>1268</height>
+              </rect>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_25">
+              <item row="0" column="0">
+               <widget class="QFrame" name="content_frame_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>1250</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_31">
+                 <item row="5" column="0">
+                  <spacer name="verticalSpacer_2">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>12</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QScrollArea" name="books_scroll_area">
+                   <property name="minimumSize">
+                    <size>
+                     <width>701</width>
+                     <height>330</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">/* Scroll Area Styles */
+QScrollArea {
+    border: 0px; 
+}
+
+QScrollBar:horizontal {
+    background: #f0f0f0;
+    height: 12px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #555555;
+    min-width: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #777777;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+    height: 0px;
+}
+
+	background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="verticalScrollBarPolicy">
+                    <enum>Qt::ScrollBarAlwaysOff</enum>
+                   </property>
+                   <property name="widgetResizable">
+                    <bool>true</bool>
+                   </property>
+                   <widget class="QWidget" name="books_scroll_area_content">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>0</y>
+                      <width>1168</width>
+                      <height>318</height>
+                     </rect>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_16">
+                     <item row="0" column="0">
+                      <widget class="QFrame" name="books_frame">
+                       <property name="minimumSize">
+                        <size>
+                         <width>1150</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>296</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border: 1px; border-radius: 20px; background-color: rgb(255, 255, 255);</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QGridLayout" name="gridLayout_5">
+                        <item row="0" column="0">
+                         <widget class="QFrame" name="hp1_frame">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_9">
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="hp1_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="hp1_name">
+                             <property name="maximumSize">
+                              <size>
+                               <width>150</width>
+                               <height>18</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>HP &amp;  the Sorcerer’s Stone</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="hp1_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/1.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_55">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="hp1_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱625.00</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="1">
+                         <spacer name="horizontalSpacer_53">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>7</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="2">
+                         <widget class="QFrame" name="hp2_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_10">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="hp2_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/2.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="hp2_name">
+                             <property name="maximumSize">
+                              <size>
+                               <width>155</width>
+                               <height>18</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>HP &amp; the Chamber of Secrets </string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_56">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="hp2_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱625.00</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="hp2_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="3">
+                         <spacer name="horizontalSpacer_54">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>5</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="4">
+                         <widget class="QFrame" name="hp3_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_34">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="hp3_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/3.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="hp3_name">
+                             <property name="maximumSize">
+                              <size>
+                               <width>155</width>
+                               <height>18</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>HP &amp; the Prisoner of Azkaban</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_57">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="hp3_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱625.00</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="hp3_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="5">
+                         <spacer name="horizontalSpacer_55">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>4</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="6">
+                         <widget class="QFrame" name="hp4_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_35">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="hp3_logo_2">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/4.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="hp4_name">
+                             <property name="maximumSize">
+                              <size>
+                               <width>155</width>
+                               <height>18</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>HP &amp; the Order of the Phoenix</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_58">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="hp4_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱625.00</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="hp4_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="7">
+                         <spacer name="horizontalSpacer_56">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>5</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="8">
+                         <widget class="QFrame" name="hp5_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_36">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="hp5_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/5.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="hp5_name">
+                             <property name="maximumSize">
+                              <size>
+                               <width>155</width>
+                               <height>18</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>HP &amp; the Goblet of Fire</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_66">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="hp5_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱625.00</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="hp5_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item row="2" column="0">
+                  <spacer name="verticalSpacer">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>11</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QFrame" name="books_title_frame">
+                   <property name="minimumSize">
+                    <size>
+                     <width>671</width>
+                     <height>57</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_4">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="books_title">
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+    background-color: none; 
+	border: 0px;
+    border-radius: 0px; 
+    font: 87 16pt &quot;Segoe UI Black&quot;;
+    color: rgb(248, 76, 98);
+}
+
+QLabel:hover {
+    color: rgb(250, 204, 46); /* Text color on hover */
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>  Books</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <spacer name="horizontalSpacer_31">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeType">
+                       <enum>QSizePolicy::Expanding</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>516</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="3" column="0">
+                  <widget class="QFrame" name="supplies_title_frame">
+                   <property name="minimumSize">
+                    <size>
+                     <width>671</width>
+                     <height>57</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_6">
+                    <item row="0" column="1">
+                     <spacer name="horizontalSpacer_32">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeType">
+                       <enum>QSizePolicy::Expanding</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>516</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="supplies_title">
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+    background-color: none; 
+	border: 0px;
+    border-radius: 0px; 
+    font: 87 16pt &quot;Segoe UI Black&quot;;
+    color: rgb(248, 76, 98);
+}
+
+QLabel:hover {
+    color: rgb(250, 204, 46);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>  Stationery &amp; Supplies</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="6" column="0">
+                  <widget class="QFrame" name="gift_title_frame">
+                   <property name="minimumSize">
+                    <size>
+                     <width>671</width>
+                     <height>57</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_8">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="gift_title">
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+    background-color: none; 
+	border: 0px;
+    border-radius: 0px; 
+    font: 87 16pt &quot;Segoe UI Black&quot;;
+    color: rgb(248, 76, 98);
+}
+
+QLabel:hover {
+    color: rgb(250, 204, 46);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>  Gifts &amp; Accessories</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <spacer name="horizontalSpacer_33">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeType">
+                       <enum>QSizePolicy::Expanding</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>516</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="7" column="0">
+                  <widget class="QScrollArea" name="gift_scroll_area">
+                   <property name="minimumSize">
+                    <size>
+                     <width>701</width>
+                     <height>330</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">/* Scroll Area Styles */
+QScrollArea {
+    border: 0px; 
+}
+
+QScrollBar:horizontal {
+    background: #f0f0f0;
+    height: 12px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #555555;
+    min-width: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #777777;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+    height: 0px;
+}
+
+	background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="verticalScrollBarPolicy">
+                    <enum>Qt::ScrollBarAlwaysOff</enum>
+                   </property>
+                   <property name="widgetResizable">
+                    <bool>true</bool>
+                   </property>
+                   <widget class="QWidget" name="gift_scroll_area_content">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>0</y>
+                      <width>1168</width>
+                      <height>318</height>
+                     </rect>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_24">
+                     <item row="0" column="0">
+                      <widget class="QFrame" name="gift_frame">
+                       <property name="minimumSize">
+                        <size>
+                         <width>1150</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>296</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border: 1px; border-radius: 20px; background-color: rgb(255, 255, 255);</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QGridLayout" name="gridLayout_12">
+                        <item row="0" column="0">
+                         <widget class="QFrame" name="bag_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_21">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="bag_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/11.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="bag_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>Gift Bags</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_70">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="bag_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱50</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="bag_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="1">
+                         <spacer name="horizontalSpacer_65">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>7</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="2">
+                         <widget class="QFrame" name="clip_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_22">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="clip_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/12.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="clip_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>HBW Paperclips</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_71">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="clip_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱39</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="clip_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="3">
+                         <spacer name="horizontalSpacer_66">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>5</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="4">
+                         <widget class="QFrame" name="bracelet_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_40">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="bracelet_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/13.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="bracelet_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>Beads Bracelet</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_72">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="bracelet_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱32</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="bracelet_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="5">
+                         <spacer name="horizontalSpacer_67">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>4</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="6">
+                         <widget class="QFrame" name="card_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_41">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="card_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/14.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="card_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>Greeting Cards</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_73">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="card_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱25</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="card_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="7">
+                         <spacer name="horizontalSpacer_68">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>5</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="8">
+                         <widget class="QFrame" name="tag_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_42">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="tag_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/15.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="tag_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>Keychains</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_74">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="tag_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>₱10</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="tag_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item row="4" column="0">
+                  <widget class="QScrollArea" name="supplies_scroll_area">
+                   <property name="minimumSize">
+                    <size>
+                     <width>701</width>
+                     <height>330</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">/* Scroll Area Styles */
+QScrollArea {
+    border: 0px; 
+}
+
+QScrollBar:horizontal {
+    background: #f0f0f0;
+    height: 12px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #555555;
+    min-width: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #777777;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+    height: 0px;
+}
+
+	background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="verticalScrollBarPolicy">
+                    <enum>Qt::ScrollBarAlwaysOff</enum>
+                   </property>
+                   <property name="widgetResizable">
+                    <bool>true</bool>
+                   </property>
+                   <widget class="QWidget" name="supplie_scroll_area_content">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>0</y>
+                      <width>1168</width>
+                      <height>318</height>
+                     </rect>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_17">
+                     <item row="0" column="0">
+                      <widget class="QFrame" name="supplies_frame">
+                       <property name="minimumSize">
+                        <size>
+                         <width>1150</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>296</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border: 1px; border-radius: 20px; background-color: rgb(255, 255, 255);</string>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <layout class="QGridLayout" name="gridLayout_15">
+                        <item row="0" column="4">
+                         <widget class="QFrame" name="binder_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_37">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="binder_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/7.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="binder_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱185.00</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_67">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="binder_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>Binder</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="binder_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="6">
+                         <widget class="QFrame" name="eraser_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_38">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="eraser_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/9.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="eraser_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>Dong-A Correction Tape</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_68">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="eraser_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱45.12</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="eraser_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="8">
+                         <widget class="QFrame" name="bonderpape_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_39">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="bonderpaper_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/10.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_69">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="bondpaper_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>HardCopy Bondpaper</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="bondpaper_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱213</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="bonderpaper_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="0">
+                         <widget class="QFrame" name="pencil_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_18">
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="pencil_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/6.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="pencil_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>Mongol Pencils</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_59">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="pencil_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱119.00</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="pencil_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="2">
+                         <widget class="QFrame" name="pen_frame">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>278</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color:rgb(255, 249, 233);  border: 0px solid grey; border-radius: 25px;</string>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_20">
+                           <item row="1" column="1" rowspan="2">
+                            <spacer name="verticalSpacer_60">
+                             <property name="orientation">
+                              <enum>Qt::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>39</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="pen_name">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 12pt &quot;Courier&quot;; border: 0px solid grey;</string>
+                             </property>
+                             <property name="text">
+                              <string>FlexSticks Pens</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="0" column="0" colspan="2">
+                            <widget class="QLabel" name="pen_logo">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>181</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">border: 0px solid #F7F7F9;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="pixmap">
+                              <pixmap>images/8.jpg</pixmap>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="pen_price">
+                             <property name="styleSheet">
+                              <string notr="true">font: 75 10pt &quot;Segoe UI Black&quot;; border: 0px solid grey; color: rgb(253, 74, 96);</string>
+                             </property>
+                             <property name="text">
+                              <string>₱55.00</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0" colspan="2">
+                            <widget class="QPushButton" name="pen_btn">
+                             <property name="minimumSize">
+                              <size>
+                               <width>191</width>
+                               <height>23</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+    background-color: rgb(250, 204, 46); 
+    border-radius: 10px; 
+    border: 0px solid grey;
+    font: 87 8pt &quot;Segoe UI Black&quot;;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: white; 
+    border: 2px solid rgb(250, 204, 46); 
+    color: rgb(250, 204, 46); 
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string>Add to Cart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="0" column="5">
+                         <spacer name="spacer">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>4</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="7">
+                         <spacer name="horizontalSpacer_62">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>5</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="3">
+                         <spacer name="horizontalSpacer_63">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>5</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                        <item row="0" column="1">
+                         <spacer name="horizontalSpacer_64">
+                          <property name="orientation">
+                           <enum>Qt::Horizontal</enum>
+                          </property>
+                          <property name="sizeHint" stdset="0">
+                           <size>
+                            <width>7</width>
+                            <height>20</height>
+                           </size>
+                          </property>
+                         </spacer>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

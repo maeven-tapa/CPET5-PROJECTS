@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>856</width>
+    <height>832</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>881</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(207, 24, 24);</string>
+    </property>
+    <widget class="QWidget" name="widget_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>40</y>
+       <width>261</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 20px;</string>
+     </property>
+     <widget class="QLabel" name="days_left_lbl">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bookman Old Style</family>
+        <pointsize>23</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>7 days left</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>49</x>
+       <y>39</y>
+       <width>501</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
+     </property>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(207, 25, 25);
+border-radius: 15px;</string>
+      </property>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>4</x>
+         <y>5</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Bookman Old Style</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Vote counts:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="total_vote_counts">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>461</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bookman Old Style</family>
+        <pointsize>55</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>xxxxx</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>90</y>
+       <width>261</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);
+background-color: rgb(245, 245, 245);
+border-radius: 20px;</string>
+     </property>
+     <widget class="QLabel" name="date_lbl">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>34</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bookman Old Style</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>November 16, 2024</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_11" native="true">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>493</y>
+       <width>781</width>
+       <height>308</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);
+border-radius: 20px;</string>
+     </property>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>15</y>
+        <width>751</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bookman Old Style</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>PARTYLIST</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTableWidget" name="partylist_tbl">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>550</y>
+       <width>761</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTableWidget, QTableView {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+QTableWidget::item, QTableView::item {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+QTableWidget::item:selected, QTableView::item:selected {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+QHeaderView::section {
+    background-color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Status column styling */
+QTableWidget::item[status=&quot;open&quot;], QTableView::item[status=&quot;open&quot;] {
+    color: #4a6ee0;  /* Blue color for Open status */
+}
+
+QTableWidget::item[status=&quot;paid&quot;], QTableView::item[status=&quot;paid&quot;] {
+    color: #2eb67d;  /* Green color for Paid status */
+}
+
+QTableWidget::item[status=&quot;inactive&quot;], QTableView::item[status=&quot;inactive&quot;] {
+    color: #808495;  /* Gray color for Inactive status */
+}
+
+/* Balance column styling (for negative values) */
+QTableWidget::item[balance=&quot;negative&quot;], QTableView::item[balance=&quot;negative&quot;] {
+    color: #ff4757;  /* Red color for negative balance */
+}
+
+/* Scrollbar styling */
+QScrollBar:vertical {
+    border: none;
+    background: white;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #d0d0d0;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="autoScrollMargin">
+      <number>16</number>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>194</number>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>Partylist:</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Moto:</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="back_btn">
+     <property name="geometry">
+      <rect>
+       <x>23</x>
+       <y>750</y>
+       <width>67</width>
+       <height>67</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bookman Old Style</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border-radius: 33px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../image/back.png</normaloff>../image/back.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>190</y>
+       <width>781</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);
+border-radius: 20px;</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>781</width>
+        <height>918</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>900</height>
+          </size>
+         </property>
+         <widget class="QTableWidget" name="president_table">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>30</y>
+            <width>761</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget, QTableView {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+QTableWidget::item, QTableView::item {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+QTableWidget::item:selected, QTableView::item:selected {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+QHeaderView::section {
+    background-color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Status column styling */
+QTableWidget::item[status=&quot;open&quot;], QTableView::item[status=&quot;open&quot;] {
+    color: #4a6ee0;  /* Blue color for Open status */
+}
+
+QTableWidget::item[status=&quot;paid&quot;], QTableView::item[status=&quot;paid&quot;] {
+    color: #2eb67d;  /* Green color for Paid status */
+}
+
+QTableWidget::item[status=&quot;inactive&quot;], QTableView::item[status=&quot;inactive&quot;] {
+    color: #808495;  /* Gray color for Inactive status */
+}
+
+/* Balance column styling (for negative values) */
+QTableWidget::item[balance=&quot;negative&quot;], QTableView::item[balance=&quot;negative&quot;] {
+    color: #ff4757;  /* Red color for negative balance */
+}
+
+/* Scrollbar styling */
+QScrollBar:vertical {
+    border: none;
+    background: white;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #d0d0d0;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+background-color: rgb(255, 255, 255);</string>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>165</number>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>39</number>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Candidate:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string> Position:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Partylist:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Votes:</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>-10</y>
+            <width>761</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>President</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="secretary_tbl">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>332</y>
+            <width>761</width>
+            <height>241</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget, QTableView {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+QTableWidget::item, QTableView::item {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+QTableWidget::item:selected, QTableView::item:selected {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+QHeaderView::section {
+    background-color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Status column styling */
+QTableWidget::item[status=&quot;open&quot;], QTableView::item[status=&quot;open&quot;] {
+    color: #4a6ee0;  /* Blue color for Open status */
+}
+
+QTableWidget::item[status=&quot;paid&quot;], QTableView::item[status=&quot;paid&quot;] {
+    color: #2eb67d;  /* Green color for Paid status */
+}
+
+QTableWidget::item[status=&quot;inactive&quot;], QTableView::item[status=&quot;inactive&quot;] {
+    color: #808495;  /* Gray color for Inactive status */
+}
+
+/* Balance column styling (for negative values) */
+QTableWidget::item[balance=&quot;negative&quot;], QTableView::item[balance=&quot;negative&quot;] {
+    color: #ff4757;  /* Red color for negative balance */
+}
+
+/* Scrollbar styling */
+QScrollBar:vertical {
+    border: none;
+    background: white;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #d0d0d0;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+background-color: rgb(255, 255, 255);</string>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>165</number>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Candidate:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Position:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Partylist:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Votes:</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>290</y>
+            <width>761</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>Secretary</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_2" native="true">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>278</y>
+            <width>704</width>
+            <height>4</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>610</y>
+            <width>761</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: transparent;</string>
+          </property>
+          <property name="text">
+           <string>Senators</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_5" native="true">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>598</y>
+            <width>704</width>
+            <height>4</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="senator_tbl">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>652</y>
+            <width>761</width>
+            <height>241</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget, QTableView {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+QTableWidget::item, QTableView::item {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+QTableWidget::item:selected, QTableView::item:selected {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+QHeaderView::section {
+    background-color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Status column styling */
+QTableWidget::item[status=&quot;open&quot;], QTableView::item[status=&quot;open&quot;] {
+    color: #4a6ee0;  /* Blue color for Open status */
+}
+
+QTableWidget::item[status=&quot;paid&quot;], QTableView::item[status=&quot;paid&quot;] {
+    color: #2eb67d;  /* Green color for Paid status */
+}
+
+QTableWidget::item[status=&quot;inactive&quot;], QTableView::item[status=&quot;inactive&quot;] {
+    color: #808495;  /* Gray color for Inactive status */
+}
+
+/* Balance column styling (for negative values) */
+QTableWidget::item[balance=&quot;negative&quot;], QTableView::item[balance=&quot;negative&quot;] {
+    color: #ff4757;  /* Red color for negative balance */
+}
+
+/* Scrollbar styling */
+QScrollBar:vertical {
+    border: none;
+    background: white;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #d0d0d0;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+background-color: rgb(255, 255, 255);</string>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>167</number>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Candidate:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Position:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Partylist:</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Votes:</string>
+           </property>
+          </column>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_12" native="true">
+     <property name="geometry">
+      <rect>
+       <x>47</x>
+       <y>181</y>
+       <width>787</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(245, 245, 245);
+border-radius: 20px;</string>
+     </property>
+    </widget>
+    <zorder>widget_12</zorder>
+    <zorder>widget_9</zorder>
+    <zorder>widget_8</zorder>
+    <zorder>widget_7</zorder>
+    <zorder>widget_11</zorder>
+    <zorder>partylist_tbl</zorder>
+    <zorder>back_btn</zorder>
+    <zorder>scrollArea</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

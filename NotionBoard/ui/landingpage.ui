@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1067</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="landingpage">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>-20</y>
+      <width>1121</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>190</y>
+       <width>551</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>28</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: none;</string>
+     </property>
+     <property name="text">
+      <string>A Dashboard Simplified</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>73</x>
+       <y>253</y>
+       <width>821</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>36</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: none;</string>
+     </property>
+     <property name="text">
+      <string> for Students &amp; Teachers.</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="start">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>500</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BT</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(21, 21, 21); border-radius: 10px; color: white;</string>
+     </property>
+     <property name="text">
+      <string>Continue</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>85</x>
+       <y>328</y>
+       <width>571</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string> Its intuitive interface helps manage student and faculty data, organize tasks, and</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>91</x>
+       <y>360</y>
+       <width>571</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>promote collaboration between educators and learners.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_37">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>310</y>
+       <width>371</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkOul BT</family>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_40">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>190</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkOul BT</family>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_43">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>350</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkOul BT</family>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_42">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>270</y>
+       <width>371</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkEx BT</family>
+       <pointsize>21</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_39">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>150</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkOul BT</family>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_38">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>110</y>
+       <width>351</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkOul BT</family>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_41">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>230</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkOul BT</family>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_45">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>430</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkOul BT</family>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainpagetext_44">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>390</y>
+       <width>421</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Swis721 BlkOul BT</family>
+       <pointsize>26</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent; border: none</string>
+     </property>
+     <property name="text">
+      <string>NOTIONBOARD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-20</y>
+       <width>200</width>
+       <height>198</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: none;
+border-radius: 99%; /* Make it circular */
+border: 2px solid ; /* Add a border */
+border-color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>-110</y>
+       <width>200</width>
+       <height>198</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 99%; /* Make it circular */
+border: 2px solid ; /* Add a border */
+border-color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>450</y>
+       <width>200</width>
+       <height>198</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 99%; /* Make it circular */
+border: 2px solid ; /* Add a border */
+border-color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>489</y>
+       <width>200</width>
+       <height>198</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: none;
+border-radius: 99%; /* Make it circular */
+border: 2px solid ; /* Add a border */
+border-color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>322</x>
+       <y>431</y>
+       <width>200</width>
+       <height>198</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: none;
+border-radius: 99%; /* Make it circular */
+border: 2px solid ; /* Add a border */
+border-color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_4</zorder>
+    <zorder>mainpagetext_37</zorder>
+    <zorder>mainpagetext_40</zorder>
+    <zorder>mainpagetext_43</zorder>
+    <zorder>mainpagetext_42</zorder>
+    <zorder>mainpagetext_39</zorder>
+    <zorder>mainpagetext_38</zorder>
+    <zorder>mainpagetext_41</zorder>
+    <zorder>mainpagetext_45</zorder>
+    <zorder>mainpagetext_44</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_7</zorder>
+    <zorder>label_8</zorder>
+    <zorder>label_9</zorder>
+    <zorder>start</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

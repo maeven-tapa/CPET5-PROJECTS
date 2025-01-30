@@ -1,0 +1,33 @@
+{
+    "teachers": {
+        "ventapa": {
+            "name": "Ven L. Tapa",
+            "birthday": "November 21, 2005",
+            "gender": "Male",
+            "password": "12345678",
+            "email": "maeventapa@outlook.ph",
+            "usertype": "teacher",
+            "posts": [
+                {
+                    "post": "Read page 17",
+                    "deadline": "May 29, 2024"
+                }
+            ],
+            "todos": [
+                {
+                    "task": "hi",
+                    "progress": "hello",
+                    "tags": "how are you"
+                }
+            ],
+            "students": [
+                {
+                    "name": "Maria Andrea L. Tapa",
+                    "birthday": "July 21, 2005",
+                    "email": "maeventapa@gmail.com"
+                }
+            ]
+        }
+    },
+    "students": {}
+}

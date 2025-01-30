@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>538</width>
+    <height>339</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-20</y>
+      <width>571</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(209, 149, 185);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="settinglabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>-50</y>
+      <width>461</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../reso/settingslabel.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backmain">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>140</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #f2c75b;  /* Background color */
+    color: #61346b;               /* Text color */
+    border-radius: 15px;          /* Rounded corners */
+    padding: 10px;                /* Padding */
+}
+QPushButton:hover {
+    background-color: #d1a95d;    /* Hover background color */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>BACK TO MAIN MENU</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="restartgame">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>190</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #f2c75b;  /* Background color */
+    color: #61346b;               /* Text color */
+    border-radius: 15px;          /* Rounded corners */
+    padding: 10px;                /* Padding */
+}
+QPushButton:hover {
+    background-color: #d1a95d;    /* Hover background color */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>RESTART THE GAME</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="continuegame">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>240</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #f2c75b;  /* Background color */
+    color: #61346b;               /* Text color */
+    border-radius: 15px;          /* Rounded corners */
+    padding: 10px;                /* Padding */
+}
+QPushButton:hover {
+    background-color: #d1a95d;    /* Hover background color */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>CONTINUE GAME</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

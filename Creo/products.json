@@ -1,0 +1,17 @@
+{
+    "hp1_btn": {"name": "HP & the Sorcerer’s Stone", "price": 625.00},
+    "hp2_btn": {"name": "HP & the Chamber of Secrets", "price": 625.00},
+    "hp3_btn": {"name": "HP & the Prisoner of Azkaban", "price": 625.00},
+    "hp4_btn": {"name": "HP & the Order of the Phoenix", "price": 625.00},
+    "hp5_btn": {"name": "HP & the Goblet of Fire", "price": 625.00},
+    "pencil_btn": {"name": "Mongol Pencils", "price": 119.00},
+    "pen_btn": {"name": "FlexSticks Pens", "price": 55.00},
+    "binder_btn": {"name": "Binder", "price": 185.00},
+    "eraser_btn": {"name": "Dong-A Correction Tape", "price": 45.12},
+    "bonderpaper_btn": {"name": "HardCopy Bondpaper", "price": 213.00},
+    "bag_btn": {"name": "Gift Bags", "price": 50.00},
+    "clip_btn": {"name": "HBW Paperclips", "price": 39.00},
+    "bracelet_btn": {"name": "Beads Bracelet", "price": 32.00},
+    "card_btn": {"name": "Greeting Cards", "price": 25.00},
+    "tag_btn": {"name": "Keychains", "price": 10.00}
+}
